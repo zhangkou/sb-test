@@ -23,6 +23,11 @@ public class SbtestApplication {
 	public String home3() {
 		return "Hello Docker World 3";
 	}
+
+	@RequestMapping("/aa/cc")
+	public String home4() {
+		return "Hello Docker World 4";
+	}
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SbtestApplication.class, args);
