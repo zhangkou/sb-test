@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+@RestController("/sbtest")
 public class SbtestApplication {
 	
 	@RequestMapping("/")

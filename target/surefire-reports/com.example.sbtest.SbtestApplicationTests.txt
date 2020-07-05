@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.sbtest.SbtestApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.92 s - in com.example.sbtest.SbtestApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.651 s - in com.example.sbtest.SbtestApplicationTests
