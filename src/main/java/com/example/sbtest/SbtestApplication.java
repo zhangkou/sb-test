@@ -6,12 +6,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController("/sbtest")
+@RestController()
 public class SbtestApplication {
 	
 	@RequestMapping("/")
 	public String home() {
 		return "Hello Docker World";
+	}
+
+	@RequestMapping("/aa")
+	public String home2() {
+		return "Hello Docker World 2";
+	}
+
+	@RequestMapping("/aa/bb")
+	public String home3() {
+		return "Hello Docker World 3";
 	}
 	
 	public static void main(String[] args) {
